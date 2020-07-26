@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.fragmentPlantel">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu_fab_label="Ordenar"
+            android:id="@+id/menuFlotante"
+            app:menu_colorNormal="@color/colorPrimaryDark"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true">
+
+            <com.github.clans.fab.FloatingActionButton
+                app:fab_label="Armarios"
+                android:id="@+id/clicArmarios"
+                app:fab_colorNormal="@color/colorPrimaryDark"
+                android:src="@drawable/recarga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.github.clans.fab.FloatingActionButton
+                app:fab_label="Rigidos"
+                android:id="@+id/clicRigidos"
+                android:src="@drawable/recarga"
+                app:fab_colorNormal="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

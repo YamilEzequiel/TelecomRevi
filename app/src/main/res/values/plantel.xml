@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="plantel">
+        <item>Arm</item>
+        <item>Ter</item>
+        <item>Rig</item>
+    </string-array>
+
+    <string-array name="categoria">
+        <item>Poste</item>
+        <item>Poste B</item>
+        <item>Azotea</item>
+        <item>Fachada</item>
+        <item>Camara</item>
+        <item>Interno</item>
+    </string-array>
+
+    <string-array name="valorZona">
+        <item>640k</item>
+        <item>1M</item>
+        <item>3M</item>
+        <item>6M</item>
+        <item>10M</item>
+        <item>15M</item>
+        <item>20M</item>
+        <item>VDSL</item>
+        <item>NGN</item>
+    </string-array>
+
+
+    <string-array name="Estado">
+        <item>Pendiente</item>
+        <item>Cumplido</item>
+    </string-array>
+
+    <string-array name="TipoPoste">
+        <item>Dispersion</item>
+        <item>Distribucion</item>
+    </string-array>
+
+</resources>
+

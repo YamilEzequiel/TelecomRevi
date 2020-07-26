@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/side_nav_bar"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:text="@string/text"
+            android:textAlignment="center"
+            android:textColor="@color/blanco"
+            android:textSize="20sp"
+            tools:targetApi="lollipop" />
+
+        <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imagen"
+                android:layout_marginTop="8dp"
+                android:elevation="10dp"
+                android:background="@drawable/img_base"
+                tools:targetApi="lollipop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/tecnico"
+            android:textStyle="italic"
+            android:padding="4dp"
+            android:text="@string/ultimaMod"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/Categoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:textSize="15sp" />
+
+                <Spinner
+                    android:id="@+id/Valor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/linear"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:hint="@string/direccion"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/black"
+                        android:id="@+id/Direccion"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:hint="@string/altura"
+                        android:padding="10dp"
+                        android:inputType="number"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/black"
+                        android:id="@+id/Altura"/>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/Distancia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/distancia"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/black" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/comentario"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/black"
+                    android:id="@+id/Comentario"/>
+
+            </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modificar_datos"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/blanco"
+            android:background="@drawable/side_nav_bar"
+            android:id="@+id/consultar"/>
+
+
+        </LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Revi</string>
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="navigation_drawer_close">Cerrar menu</string>
+    <string name="nav_header_title">Revi App</string>
+    <string name="nav_header_subtitle">Subtitulo</string>
+    <string name="nav_header_desc">Menu</string>
+    <string name="action_settings">u.u</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="api_google">AIzaSyBENEXUGZkRBlhcJsPlbxy3XAgeM3BBFxo</string>
+
+    #Agregar y Agregar_Resultados#
+    <string name="text">text</string>
+    <string name="numeroTer">Numero del terminal</string>
+    <string name="consultar">Consultar</string>
+    <string name="direccion">Direccion</string>
+    <string name="altura">Altura</string>
+    <string name="distancia">Distancia</string>
+    <string name="comentario">Comentario</string>
+    <string name="modificar_datos">Modificar Datos</string>
+    <string name="ultimaMod">Ultima modificacion por 584775 – 12/12/12 12:</string>
+
+
+    <string name="URL">http://149.56.192.248/~revi/</string>
+
+</resources>

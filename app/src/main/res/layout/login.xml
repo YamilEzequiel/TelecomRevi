@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:text="Revi"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/recuerda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:textAlignment="center"
+        android:textColor="@color/blanco"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/black"
+        android:hint="Numero de tecnico"
+        android:padding="10dp"
+        android:textSize="15sp"
+        tools:ignore="LabelFor,MissingConstraints,TextFields" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/black"
+        android:hint="Contraseña"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="15sp"
+        tools:ignore="LabelFor,MissingConstraints,TextFields" />
+
+
+    <Button
+        android:id="@+id/ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:padding="8dp"
+        android:background="@android:color/transparent"
+        android:text="Iniciar Sesion"
+        android:textColor="@color/blanco"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

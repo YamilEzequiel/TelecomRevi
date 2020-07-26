@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.fragmentBusqueda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:elevation="10dp"
+        android:background="@drawable/side_nav_bar"
+        android:orientation="horizontal"
+        tools:targetApi="lollipop">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terminal"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/blanco"
+            android:background="@android:color/transparent"
+            android:id="@+id/Arm"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direccion"
+            android:padding="10dp"
+            android:textAllCaps="false"
+            android:textColor="@color/blanco"
+            android:background="@android:color/transparent"
+            android:id="@+id/Calle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ArmRig"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero de Armario o Rigido"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/black"
+            android:id="@+id/numeroArmRig"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de Ter"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/black"
+            android:id="@+id/numeroTer"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Calles"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Direccion"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/black"
+            android:id="@+id/laCalle"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Altura"
+            android:inputType="number"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/black"
+            android:id="@+id/laAltura"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:padding="10dp"
+        android:elevation="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/blanco"
+        android:background="@drawable/side_nav_bar"
+        android:id="@+id/Buscar"
+        tools:targetApi="lollipop" />
+
+</LinearLayout>

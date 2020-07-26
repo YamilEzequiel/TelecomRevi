@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/plantel"
+            android:icon="@drawable/telephone"
+            android:title="Plantel" />
+        <item
+            android:id="@+id/postes"
+            android:icon="@drawable/poste"
+            android:title="Postes" />
+        <item
+            android:id="@+id/busqueda"
+            android:icon="@drawable/search"
+            android:title="Busqueda" />
+        <item
+            android:id="@+id/agenda"
+            android:icon="@drawable/agenda"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/miLista"
+            android:icon="@drawable/like2"
+            android:title="Mi Lista" />
+        <item
+            android:id="@+id/speed"
+            android:icon="@drawable/speed"
+            android:title="Speed Test" />
+        <item
+            android:id="@+id/wire"
+            android:icon="@drawable/wire"
+            android:title="Colores"/>
+    </group>
+
+</menu>
